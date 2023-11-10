@@ -1,3 +1,43 @@
-#heading{
-    color: red;
+.res_Header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray
+}
+
+.logo > img{
+   width: 80px;
+}
+.res_items>ul{
+    display: flex;
+    list-style-type: none;    
+}
+.res_items>ul>li{
+    padding: 15px;
+}
+.res_card{
+    width: 250px;
+    
+  
+}
+.res_card:hover{
+  border: 2px solid gray;
+  cursor: pointer;
+  border-radius: 7px
+
+}
+
+.res_card >img{
+    width: 250px;
+    height: 200px;
+    border-radius: 7px
+    
+}
+.restourant_Cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.filter_btn{
+    margin: 5px;
 }
